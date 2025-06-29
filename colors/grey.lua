@@ -18,7 +18,7 @@ end
 o.background = 'light'
 g.colors_name = 'grey'
 
-local background = '#f2f2f2'
+local background = '#f1efeb'
 local grey_bg_light = '#ececec'
 local black = '#000000'
 local blue = '#1561b8'
@@ -461,6 +461,9 @@ local highlights = {
   yardComment = { link = 'Comment' },
   yardType = { link = 'Todo' },
   yardTypeList = { link = 'Todo' },
+  -- CursorLine
+  CursorLine = { bg = "#e3e1dd" },
+  CursorColumn = { link = 'CursorLine' }
 }
 
 for group, opts in pairs(highlights) do
